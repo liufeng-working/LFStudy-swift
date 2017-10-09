@@ -4,7 +4,7 @@ import UIKit
 
 //面向对象的基础是类
 
-class Person : NSObject {
+class Person: NSObject {
     var age: Int = 0
     
     override func setValue(_ value: Any?, forUndefinedKey key: String) {
@@ -50,6 +50,8 @@ class Student : NSObject {
     func getAvg() -> Double {
         return (self.mathScore + self.chineseScore)*0.5
     }
+    
+    
     
 }
 

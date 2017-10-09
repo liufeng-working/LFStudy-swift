@@ -26,6 +26,7 @@ enum Season {
     case winter
 }
 
+let month = Month(rawValue: 1)
 let curMonth: Month = .september
 
 func season(month: Month) -> Season {
@@ -105,6 +106,7 @@ result1
 
 
 
+Optional.some("123")
 
 
 

@@ -85,10 +85,10 @@ prefix func +++(vector: inout Vector3) -> Vector3 {
     return vector
 }
 
-//infix operator ^
-//infix func ^() {
-//    
-//}
+infix operator ^
+func ^(left: Vector3, right: Vector3) -> Vector3 {
+    return Vector3()
+}
 
 
 
