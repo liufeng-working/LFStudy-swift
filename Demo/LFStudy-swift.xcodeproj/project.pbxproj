@@ -42,6 +42,11 @@
 		03D123A91F8DF23C00FE73DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D123A71F8DF23C00FE73DD /* Main.storyboard */; };
 		03D123AB1F8DF23C00FE73DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D123AA1F8DF23C00FE73DD /* Assets.xcassets */; };
 		03D123AE1F8DF23C00FE73DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D123AC1F8DF23C00FE73DD /* LaunchScreen.storyboard */; };
+		03D93DC41F949F2B00611CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D93DC31F949F2B00611CCE /* AppDelegate.swift */; };
+		03D93DC61F949F2B00611CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D93DC51F949F2B00611CCE /* ViewController.swift */; };
+		03D93DC91F949F2B00611CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D93DC71F949F2B00611CCE /* Main.storyboard */; };
+		03D93DCB1F949F2B00611CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D93DCA1F949F2B00611CCE /* Assets.xcassets */; };
+		03D93DCE1F949F2B00611CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D93DCC1F949F2B00611CCE /* LaunchScreen.storyboard */; };
 		03E4ACFF1F90FB23009A1760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4ACFE1F90FB23009A1760 /* AppDelegate.swift */; };
 		03E4AD011F90FB23009A1760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4AD001F90FB23009A1760 /* ViewController.swift */; };
 		03E4AD041F90FB23009A1760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E4AD021F90FB23009A1760 /* Main.storyboard */; };
@@ -113,6 +118,13 @@
 		03D123AA1F8DF23C00FE73DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03D123AD1F8DF23C00FE73DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03D123AF1F8DF23C00FE73DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D93DC11F949F2B00611CCE /* 远程音效播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "远程音效播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D93DC31F949F2B00611CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03D93DC51F949F2B00611CCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03D93DC81F949F2B00611CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03D93DCA1F949F2B00611CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03D93DCD1F949F2B00611CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03D93DCF1F949F2B00611CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03E4ACFC1F90FB23009A1760 /* Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E4ACFE1F90FB23009A1760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E4AD001F90FB23009A1760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -179,6 +191,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		03D1239E1F8DF23C00FE73DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D93DBE1F949F2B00611CCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,6 +311,19 @@
 			path = Location;
 			sourceTree = "<group>";
 		};
+		03D93DC21F949F2B00611CCE /* 远程音效播放 */ = {
+			isa = PBXGroup;
+			children = (
+				03D93DC31F949F2B00611CCE /* AppDelegate.swift */,
+				03D93DC51F949F2B00611CCE /* ViewController.swift */,
+				03D93DC71F949F2B00611CCE /* Main.storyboard */,
+				03D93DCA1F949F2B00611CCE /* Assets.xcassets */,
+				03D93DCC1F949F2B00611CCE /* LaunchScreen.storyboard */,
+				03D93DCF1F949F2B00611CCE /* Info.plist */,
+			);
+			path = "远程音效播放";
+			sourceTree = "<group>";
+		};
 		03E4ACFD1F90FB23009A1760 /* Pad */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +355,7 @@
 				03B1D57A1F9128BD0015F9BC /* Split */,
 				03248DAC1F91F95B0008D006 /* 录音 */,
 				03248DC21F9229E90008D006 /* 音效播放 */,
+				03D93DC21F949F2B00611CCE /* 远程音效播放 */,
 				03F2A57F1F6960DF00CA7E63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -339,6 +372,7 @@
 				03B1D5791F9128BD0015F9BC /* Split.app */,
 				03248DAB1F91F95B0008D006 /* 录音.app */,
 				03248DC11F9229E80008D006 /* 音效播放.app */,
+				03D93DC11F949F2B00611CCE /* 远程音效播放.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -474,6 +508,23 @@
 			productReference = 03D123A11F8DF23C00FE73DD /* Location.app */;
 			productType = "com.apple.product-type.application";
 		};
+		03D93DC01F949F2B00611CCE /* 远程音效播放 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D93DD21F949F2B00611CCE /* Build configuration list for PBXNativeTarget "远程音效播放" */;
+			buildPhases = (
+				03D93DBD1F949F2B00611CCE /* Sources */,
+				03D93DBE1F949F2B00611CCE /* Frameworks */,
+				03D93DBF1F949F2B00611CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "远程音效播放";
+			productName = "远程音效播放";
+			productReference = 03D93DC11F949F2B00611CCE /* 远程音效播放.app */;
+			productType = "com.apple.product-type.application";
+		};
 		03E4ACFB1F90FB23009A1760 /* Pad */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03E4AD0B1F90FB23009A1760 /* Build configuration list for PBXNativeTarget "Pad" */;
@@ -575,6 +626,11 @@
 							};
 						};
 					};
+					03D93DC01F949F2B00611CCE = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = QDT8L8LPPU;
+						ProvisioningStyle = Automatic;
+					};
 					03E4ACFB1F90FB23009A1760 = {
 						CreatedOnToolsVersion = 9.0;
 						DevelopmentTeam = QDT8L8LPPU;
@@ -619,6 +675,7 @@
 				03B1D5781F9128BD0015F9BC /* Split */,
 				03248DAA1F91F95B0008D006 /* 录音 */,
 				03248DC01F9229E80008D006 /* 音效播放 */,
+				03D93DC01F949F2B00611CCE /* 远程音效播放 */,
 			);
 		};
 /* End PBXProject section */
@@ -685,6 +742,16 @@
 				03D123AE1F8DF23C00FE73DD /* LaunchScreen.storyboard in Resources */,
 				03D123AB1F8DF23C00FE73DD /* Assets.xcassets in Resources */,
 				03D123A91F8DF23C00FE73DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D93DBF1F949F2B00611CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D93DCE1F949F2B00611CCE /* LaunchScreen.storyboard in Resources */,
+				03D93DCB1F949F2B00611CCE /* Assets.xcassets in Resources */,
+				03D93DC91F949F2B00611CCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,6 +841,15 @@
 			files = (
 				03D123A61F8DF23C00FE73DD /* ViewController.swift in Sources */,
 				03D123A41F8DF23C00FE73DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D93DBD1F949F2B00611CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D93DC61F949F2B00611CCE /* ViewController.swift in Sources */,
+				03D93DC41F949F2B00611CCE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -904,6 +980,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				03D123AD1F8DF23C00FE73DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		03D93DC71F949F2B00611CCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D93DC81F949F2B00611CCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03D93DCC1F949F2B00611CCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D93DCD1F949F2B00611CCE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1271,6 +1363,58 @@
 			};
 			name = Release;
 		};
+		03D93DD01F949F2B00611CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "远程音效播放/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaituo.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03D93DD11F949F2B00611CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "远程音效播放/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaituo.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		03E4AD0C1F90FB23009A1760 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1550,6 +1694,15 @@
 			buildConfigurations = (
 				03D123B11F8DF23C00FE73DD /* Debug */,
 				03D123B21F8DF23C00FE73DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D93DD21F949F2B00611CCE /* Build configuration list for PBXNativeTarget "远程音效播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D93DD01F949F2B00611CCE /* Debug */,
+				03D93DD11F949F2B00611CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
