@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         let audioPlayer = try! AVAudioPlayer(contentsOf: pathUrl)
         audioPlayer.delegate = self
         audioPlayer.prepareToPlay()
+//        self.playInBack()
         return audioPlayer
     }()
 
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        LFAudio.play(name: "飞机.mp3")
+        LFAudio.playShort(name: "背景.mp3")
     }
     
     @IBAction fileprivate func play() {
@@ -52,6 +53,12 @@ class ViewController: UIViewController {
     
     @IBAction fileprivate func volumn(sender: UISlider) {
         self.audioPlayer.volume = sender.value
+    }
+    
+    fileprivate func playInBack() {
+        let audioSession = AVAudioSession.sharedInstance()
+        try? audioSession.setCategory(AVAudioSessionCategoryPlayback)
+        try? audioSession.setActive(true)
     }
 }
 

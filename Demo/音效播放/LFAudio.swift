@@ -11,14 +11,16 @@ import AudioToolbox
 
 class LFAudio: NSObject {
     
-    public static func play(name: String, completion: (() -> ())?) {
-        self.play(name: name, subdirectory: "", completion: completion)
-    }
-    
-    public static func play(name: String, subdirectory: String = "", completion: (() -> ())? = nil) {
+    /// 用于播放短音效（一般30秒以内）
+    ///
+    /// - Parameters:
+    ///   - name: 音效名称
+    ///   - subdirectory: 音效所在子bundle目录
+    ///   - completion: 播放完成后的回调
+    public static func playShort(name: String, subdirectory: String = "", completion: ((_ errorString: String?) -> ())? = nil) {
         //获取文件的路径
         guard let pathUrl = Bundle.main.url(forResource: name, withExtension: nil, subdirectory: subdirectory) else {
-        completion?()
+        completion?("音效路径不正确")
         return
         }
     
@@ -30,7 +32,12 @@ class LFAudio: NSObject {
         AudioServicesPlaySystemSoundWithCompletion(sourceID) {
         //根据id释放音效
         AudioServicesDisposeSystemSoundID(sourceID)
-            completion?()
+            completion?(nil)
         }
     }
+    
+    public static func playShort(name: String, completion: ((_ errorString: String?) -> ())?) {
+        self.playShort(name: name, subdirectory: "", completion: completion)
+    }
 }
+

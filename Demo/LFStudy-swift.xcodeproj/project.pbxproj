@@ -20,12 +20,12 @@
 		03248DD61F922DF70008D006 /* audio.caf in Resources */ = {isa = PBXBuildFile; fileRef = 03248DD51F922DC70008D006 /* audio.caf */; };
 		03248DD71F922DFC0008D006 /* 背景.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03248DD41F922A930008D006 /* 背景.mp3 */; };
 		03248DD81F922E010008D006 /* 飞机.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03248DD31F922A930008D006 /* 飞机.mp3 */; };
-		03248DDA1F922F990008D006 /* LFAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03248DD91F922F990008D006 /* LFAudio.swift */; };
 		032759B61F8F02FD002F307C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032759B51F8F02FD002F307C /* AppDelegate.swift */; };
 		032759B81F8F02FD002F307C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032759B71F8F02FD002F307C /* ViewController.swift */; };
 		032759BB1F8F02FD002F307C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032759B91F8F02FD002F307C /* Main.storyboard */; };
 		032759BD1F8F02FD002F307C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032759BC1F8F02FD002F307C /* Assets.xcassets */; };
 		032759C01F8F02FD002F307C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032759BE1F8F02FD002F307C /* LaunchScreen.storyboard */; };
+		035481191F925CD10022384F /* LFAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035481181F925CD00022384F /* LFAudio.swift */; };
 		03B1D5661F9118EB0015F9BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B1D5651F9118EB0015F9BC /* AppDelegate.swift */; };
 		03B1D5681F9118EB0015F9BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B1D5671F9118EB0015F9BC /* ViewController.swift */; };
 		03B1D56B1F9118EB0015F9BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B1D5691F9118EB0015F9BC /* Main.storyboard */; };
@@ -83,7 +83,6 @@
 		03248DD31F922A930008D006 /* 飞机.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "飞机.mp3"; sourceTree = "<group>"; };
 		03248DD41F922A930008D006 /* 背景.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "背景.mp3"; sourceTree = "<group>"; };
 		03248DD51F922DC70008D006 /* audio.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio.caf; sourceTree = "<group>"; };
-		03248DD91F922F990008D006 /* LFAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFAudio.swift; sourceTree = "<group>"; };
 		032759B31F8F02FD002F307C /* Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		032759B51F8F02FD002F307C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		032759B71F8F02FD002F307C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 		032759BC1F8F02FD002F307C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		032759BF1F8F02FD002F307C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		032759C11F8F02FD002F307C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035481181F925CD00022384F /* LFAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFAudio.swift; sourceTree = "<group>"; };
 		03B1D5631F9118EB0015F9BC /* Popover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B1D5651F9118EB0015F9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03B1D5671F9118EB0015F9BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -230,8 +230,8 @@
 				03248DD31F922A930008D006 /* 飞机.mp3 */,
 				03248DC31F9229E90008D006 /* AppDelegate.swift */,
 				03248DC51F9229E90008D006 /* ViewController.swift */,
+				035481181F925CD00022384F /* LFAudio.swift */,
 				03248DC71F9229E90008D006 /* Main.storyboard */,
-				03248DD91F922F990008D006 /* LFAudio.swift */,
 				03248DCA1F9229E90008D006 /* Assets.xcassets */,
 				03248DCC1F9229E90008D006 /* LaunchScreen.storyboard */,
 				03248DCF1F9229E90008D006 /* Info.plist */,
@@ -546,7 +546,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -736,7 +736,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03248DC61F9229E90008D006 /* ViewController.swift in Sources */,
-				03248DDA1F922F990008D006 /* LFAudio.swift in Sources */,
+				035481191F925CD10022384F /* LFAudio.swift in Sources */,
 				03248DC41F9229E90008D006 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
