@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Pad
+//  Ipad
 //
-//  Created by 刘丰 on 2017/10/13.
+//  Created by 刘丰 on 2017/10/16.
 //  Copyright © 2017年 liufeng. All rights reserved.
 //
 

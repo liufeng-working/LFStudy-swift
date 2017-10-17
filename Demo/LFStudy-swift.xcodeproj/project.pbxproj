@@ -47,17 +47,16 @@
 		03D93DC91F949F2B00611CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D93DC71F949F2B00611CCE /* Main.storyboard */; };
 		03D93DCB1F949F2B00611CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D93DCA1F949F2B00611CCE /* Assets.xcassets */; };
 		03D93DCE1F949F2B00611CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D93DCC1F949F2B00611CCE /* LaunchScreen.storyboard */; };
-		03E4ACFF1F90FB23009A1760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4ACFE1F90FB23009A1760 /* AppDelegate.swift */; };
-		03E4AD011F90FB23009A1760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4AD001F90FB23009A1760 /* ViewController.swift */; };
-		03E4AD041F90FB23009A1760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E4AD021F90FB23009A1760 /* Main.storyboard */; };
-		03E4AD061F90FB23009A1760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E4AD051F90FB23009A1760 /* Assets.xcassets */; };
-		03E4AD091F90FB23009A1760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E4AD071F90FB23009A1760 /* LaunchScreen.storyboard */; };
-		03E4AD0F1F910130009A1760 /* LFDockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4AD0E1F910130009A1760 /* LFDockView.swift */; };
-		03E4AD111F910236009A1760 /* LFTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4AD101F910236009A1760 /* LFTool.swift */; };
-		03E4AD131F91031B009A1760 /* UIDevice+LFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4AD121F91031B009A1760 /* UIDevice+LFExtension.swift */; };
-		03E4AD151F910546009A1760 /* LFBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4AD141F910546009A1760 /* LFBottomView.swift */; };
-		03E4AD171F910552009A1760 /* LFMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4AD161F910552009A1760 /* LFMiddleView.swift */; };
-		03E4AD191F910A66009A1760 /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E4AD181F9109B5009A1760 /* image@2x.png */; };
+		03D93E061F94A7BD00611CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D93E051F94A7BD00611CCE /* AppDelegate.swift */; };
+		03D93E081F94A7BD00611CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D93E071F94A7BD00611CCE /* ViewController.swift */; };
+		03D93E0B1F94A7BD00611CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D93E091F94A7BD00611CCE /* Main.storyboard */; };
+		03D93E0D1F94A7BD00611CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D93E0C1F94A7BD00611CCE /* Assets.xcassets */; };
+		03D93E101F94A7BD00611CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D93E0E1F94A7BD00611CCE /* LaunchScreen.storyboard */; };
+		03D93E1A1F94A7DD00611CCE /* UIDevice+LFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D93E151F94A7DC00611CCE /* UIDevice+LFExtension.swift */; };
+		03D93E1B1F94A7DD00611CCE /* LFDockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D93E161F94A7DC00611CCE /* LFDockView.swift */; };
+		03D93E1C1F94A7DD00611CCE /* LFTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D93E171F94A7DD00611CCE /* LFTool.swift */; };
+		03D93E1D1F94A7DD00611CCE /* LFBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D93E181F94A7DD00611CCE /* LFBottomView.swift */; };
+		03D93E1E1F94A7DD00611CCE /* LFMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D93E191F94A7DD00611CCE /* LFMiddleView.swift */; };
 		03F2A5821F6960DF00CA7E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2A5811F6960DF00CA7E63 /* AppDelegate.swift */; };
 		03F2A5841F6960DF00CA7E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2A5831F6960DF00CA7E63 /* ViewController.swift */; };
 		03F2A5871F6960DF00CA7E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F2A5851F6960DF00CA7E63 /* Main.storyboard */; };
@@ -125,19 +124,18 @@
 		03D93DCA1F949F2B00611CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03D93DCD1F949F2B00611CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03D93DCF1F949F2B00611CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03E4ACFC1F90FB23009A1760 /* Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E4ACFE1F90FB23009A1760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03E4AD001F90FB23009A1760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03E4AD031F90FB23009A1760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		03E4AD051F90FB23009A1760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03E4AD081F90FB23009A1760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		03E4AD0A1F90FB23009A1760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03E4AD0E1F910130009A1760 /* LFDockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFDockView.swift; sourceTree = "<group>"; };
-		03E4AD101F910236009A1760 /* LFTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFTool.swift; sourceTree = "<group>"; };
-		03E4AD121F91031B009A1760 /* UIDevice+LFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+LFExtension.swift"; sourceTree = "<group>"; };
-		03E4AD141F910546009A1760 /* LFBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFBottomView.swift; sourceTree = "<group>"; };
-		03E4AD161F910552009A1760 /* LFMiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFMiddleView.swift; sourceTree = "<group>"; };
-		03E4AD181F9109B5009A1760 /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@2x.png"; sourceTree = "<group>"; };
+		03D93E031F94A7BD00611CCE /* Ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D93E051F94A7BD00611CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03D93E071F94A7BD00611CCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03D93E0A1F94A7BD00611CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03D93E0C1F94A7BD00611CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03D93E0F1F94A7BD00611CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03D93E111F94A7BD00611CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D93E151F94A7DC00611CCE /* UIDevice+LFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+LFExtension.swift"; sourceTree = "<group>"; };
+		03D93E161F94A7DC00611CCE /* LFDockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFDockView.swift; sourceTree = "<group>"; };
+		03D93E171F94A7DD00611CCE /* LFTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFTool.swift; sourceTree = "<group>"; };
+		03D93E181F94A7DD00611CCE /* LFBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFBottomView.swift; sourceTree = "<group>"; };
+		03D93E191F94A7DD00611CCE /* LFMiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFMiddleView.swift; sourceTree = "<group>"; };
 		03F2A57E1F6960DF00CA7E63 /* LFStudy-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LFStudy-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F2A5811F6960DF00CA7E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03F2A5831F6960DF00CA7E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -204,7 +202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03E4ACF91F90FB23009A1760 /* Frameworks */ = {
+		03D93E001F94A7BD00611CCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,23 +322,22 @@
 			path = "远程音效播放";
 			sourceTree = "<group>";
 		};
-		03E4ACFD1F90FB23009A1760 /* Pad */ = {
+		03D93E041F94A7BD00611CCE /* Ipad */ = {
 			isa = PBXGroup;
 			children = (
-				03E4AD181F9109B5009A1760 /* image@2x.png */,
-				03E4ACFE1F90FB23009A1760 /* AppDelegate.swift */,
-				03E4AD001F90FB23009A1760 /* ViewController.swift */,
-				03E4AD021F90FB23009A1760 /* Main.storyboard */,
-				03E4AD0E1F910130009A1760 /* LFDockView.swift */,
-				03E4AD161F910552009A1760 /* LFMiddleView.swift */,
-				03E4AD141F910546009A1760 /* LFBottomView.swift */,
-				03E4AD101F910236009A1760 /* LFTool.swift */,
-				03E4AD121F91031B009A1760 /* UIDevice+LFExtension.swift */,
-				03E4AD051F90FB23009A1760 /* Assets.xcassets */,
-				03E4AD071F90FB23009A1760 /* LaunchScreen.storyboard */,
-				03E4AD0A1F90FB23009A1760 /* Info.plist */,
+				03D93E051F94A7BD00611CCE /* AppDelegate.swift */,
+				03D93E071F94A7BD00611CCE /* ViewController.swift */,
+				03D93E181F94A7DD00611CCE /* LFBottomView.swift */,
+				03D93E161F94A7DC00611CCE /* LFDockView.swift */,
+				03D93E191F94A7DD00611CCE /* LFMiddleView.swift */,
+				03D93E171F94A7DD00611CCE /* LFTool.swift */,
+				03D93E151F94A7DC00611CCE /* UIDevice+LFExtension.swift */,
+				03D93E091F94A7BD00611CCE /* Main.storyboard */,
+				03D93E0C1F94A7BD00611CCE /* Assets.xcassets */,
+				03D93E0E1F94A7BD00611CCE /* LaunchScreen.storyboard */,
+				03D93E111F94A7BD00611CCE /* Info.plist */,
 			);
-			path = Pad;
+			path = Ipad;
 			sourceTree = "<group>";
 		};
 		03F2A5751F6960DF00CA7E63 = {
@@ -350,12 +347,12 @@
 				03D123A21F8DF23C00FE73DD /* Location */,
 				032759B41F8F02FD002F307C /* Notification */,
 				03FE54F11F8F4EC0005B730E /* 传感器 */,
-				03E4ACFD1F90FB23009A1760 /* Pad */,
 				03B1D5641F9118EB0015F9BC /* Popover */,
 				03B1D57A1F9128BD0015F9BC /* Split */,
 				03248DAC1F91F95B0008D006 /* 录音 */,
 				03248DC21F9229E90008D006 /* 音效播放 */,
 				03D93DC21F949F2B00611CCE /* 远程音效播放 */,
+				03D93E041F94A7BD00611CCE /* Ipad */,
 				03F2A57F1F6960DF00CA7E63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -367,12 +364,12 @@
 				03D123A11F8DF23C00FE73DD /* Location.app */,
 				032759B31F8F02FD002F307C /* Notification.app */,
 				03FE54F01F8F4EC0005B730E /* 传感器.app */,
-				03E4ACFC1F90FB23009A1760 /* Pad.app */,
 				03B1D5631F9118EB0015F9BC /* Popover.app */,
 				03B1D5791F9128BD0015F9BC /* Split.app */,
 				03248DAB1F91F95B0008D006 /* 录音.app */,
 				03248DC11F9229E80008D006 /* 音效播放.app */,
 				03D93DC11F949F2B00611CCE /* 远程音效播放.app */,
+				03D93E031F94A7BD00611CCE /* Ipad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -525,21 +522,21 @@
 			productReference = 03D93DC11F949F2B00611CCE /* 远程音效播放.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03E4ACFB1F90FB23009A1760 /* Pad */ = {
+		03D93E021F94A7BD00611CCE /* Ipad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03E4AD0B1F90FB23009A1760 /* Build configuration list for PBXNativeTarget "Pad" */;
+			buildConfigurationList = 03D93E121F94A7BD00611CCE /* Build configuration list for PBXNativeTarget "Ipad" */;
 			buildPhases = (
-				03E4ACF81F90FB23009A1760 /* Sources */,
-				03E4ACF91F90FB23009A1760 /* Frameworks */,
-				03E4ACFA1F90FB23009A1760 /* Resources */,
+				03D93DFF1F94A7BD00611CCE /* Sources */,
+				03D93E001F94A7BD00611CCE /* Frameworks */,
+				03D93E011F94A7BD00611CCE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Pad;
-			productName = Pad;
-			productReference = 03E4ACFC1F90FB23009A1760 /* Pad.app */;
+			name = Ipad;
+			productName = Ipad;
+			productReference = 03D93E031F94A7BD00611CCE /* Ipad.app */;
 			productType = "com.apple.product-type.application";
 		};
 		03F2A57D1F6960DF00CA7E63 /* LFStudy-swift */ = {
@@ -631,7 +628,7 @@
 						DevelopmentTeam = QDT8L8LPPU;
 						ProvisioningStyle = Automatic;
 					};
-					03E4ACFB1F90FB23009A1760 = {
+					03D93E021F94A7BD00611CCE = {
 						CreatedOnToolsVersion = 9.0;
 						DevelopmentTeam = QDT8L8LPPU;
 						ProvisioningStyle = Automatic;
@@ -670,12 +667,12 @@
 				03D123A01F8DF23C00FE73DD /* Location */,
 				032759B21F8F02FD002F307C /* Notification */,
 				03FE54EF1F8F4EC0005B730E /* 传感器 */,
-				03E4ACFB1F90FB23009A1760 /* Pad */,
 				03B1D5621F9118EB0015F9BC /* Popover */,
 				03B1D5781F9128BD0015F9BC /* Split */,
 				03248DAA1F91F95B0008D006 /* 录音 */,
 				03248DC01F9229E80008D006 /* 音效播放 */,
 				03D93DC01F949F2B00611CCE /* 远程音效播放 */,
+				03D93E021F94A7BD00611CCE /* Ipad */,
 			);
 		};
 /* End PBXProject section */
@@ -755,14 +752,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03E4ACFA1F90FB23009A1760 /* Resources */ = {
+		03D93E011F94A7BD00611CCE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E4AD091F90FB23009A1760 /* LaunchScreen.storyboard in Resources */,
-				03E4AD061F90FB23009A1760 /* Assets.xcassets in Resources */,
-				03E4AD041F90FB23009A1760 /* Main.storyboard in Resources */,
-				03E4AD191F910A66009A1760 /* image@2x.png in Resources */,
+				03D93E101F94A7BD00611CCE /* LaunchScreen.storyboard in Resources */,
+				03D93E0D1F94A7BD00611CCE /* Assets.xcassets in Resources */,
+				03D93E0B1F94A7BD00611CCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,17 +849,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03E4ACF81F90FB23009A1760 /* Sources */ = {
+		03D93DFF1F94A7BD00611CCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E4AD011F90FB23009A1760 /* ViewController.swift in Sources */,
-				03E4AD0F1F910130009A1760 /* LFDockView.swift in Sources */,
-				03E4AD131F91031B009A1760 /* UIDevice+LFExtension.swift in Sources */,
-				03E4ACFF1F90FB23009A1760 /* AppDelegate.swift in Sources */,
-				03E4AD111F910236009A1760 /* LFTool.swift in Sources */,
-				03E4AD171F910552009A1760 /* LFMiddleView.swift in Sources */,
-				03E4AD151F910546009A1760 /* LFBottomView.swift in Sources */,
+				03D93E1C1F94A7DD00611CCE /* LFTool.swift in Sources */,
+				03D93E1A1F94A7DD00611CCE /* UIDevice+LFExtension.swift in Sources */,
+				03D93E1B1F94A7DD00611CCE /* LFDockView.swift in Sources */,
+				03D93E081F94A7BD00611CCE /* ViewController.swift in Sources */,
+				03D93E061F94A7BD00611CCE /* AppDelegate.swift in Sources */,
+				03D93E1E1F94A7DD00611CCE /* LFMiddleView.swift in Sources */,
+				03D93E1D1F94A7DD00611CCE /* LFBottomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1000,18 +996,18 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		03E4AD021F90FB23009A1760 /* Main.storyboard */ = {
+		03D93E091F94A7BD00611CCE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03E4AD031F90FB23009A1760 /* Base */,
+				03D93E0A1F94A7BD00611CCE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		03E4AD071F90FB23009A1760 /* LaunchScreen.storyboard */ = {
+		03D93E0E1F94A7BD00611CCE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03E4AD081F90FB23009A1760 /* Base */,
+				03D93E0F1F94A7BD00611CCE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1415,7 +1411,7 @@
 			};
 			name = Release;
 		};
-		03E4AD0C1F90FB23009A1760 /* Debug */ = {
+		03D93E131F94A7BD00611CCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1431,17 +1427,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QDT8L8LPPU;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Pad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = Ipad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaituo.Pad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaituo.Ipad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
-		03E4AD0D1F90FB23009A1760 /* Release */ = {
+		03D93E141F94A7BD00611CCE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1457,10 +1453,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QDT8L8LPPU;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Pad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = Ipad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaituo.Pad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaituo.Ipad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -1707,11 +1703,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03E4AD0B1F90FB23009A1760 /* Build configuration list for PBXNativeTarget "Pad" */ = {
+		03D93E121F94A7BD00611CCE /* Build configuration list for PBXNativeTarget "Ipad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03E4AD0C1F90FB23009A1760 /* Debug */,
-				03E4AD0D1F90FB23009A1760 /* Release */,
+				03D93E131F94A7BD00611CCE /* Debug */,
+				03D93E141F94A7BD00611CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
