@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0319F2381F96E94300B9892A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319F2371F96E94300B9892A /* AppDelegate.swift */; };
+		0319F23A1F96E94300B9892A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319F2391F96E94300B9892A /* ViewController.swift */; };
+		0319F23D1F96E94300B9892A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0319F23B1F96E94300B9892A /* Main.storyboard */; };
+		0319F23F1F96E94300B9892A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0319F23E1F96E94300B9892A /* Assets.xcassets */; };
+		0319F2421F96E94300B9892A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0319F2401F96E94300B9892A /* LaunchScreen.storyboard */; };
 		03248DAE1F91F95B0008D006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03248DAD1F91F95B0008D006 /* AppDelegate.swift */; };
 		03248DB01F91F95B0008D006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03248DAF1F91F95B0008D006 /* ViewController.swift */; };
 		03248DB31F91F95B0008D006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03248DB11F91F95B0008D006 /* Main.storyboard */; };
@@ -78,6 +83,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0319F2351F96E94200B9892A /* SQLite数据库.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SQLite数据库.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0319F2371F96E94300B9892A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0319F2391F96E94300B9892A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0319F23C1F96E94300B9892A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0319F23E1F96E94300B9892A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0319F2411F96E94300B9892A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0319F2431F96E94300B9892A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03248DAB1F91F95B0008D006 /* 录音.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "录音.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03248DAD1F91F95B0008D006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03248DAF1F91F95B0008D006 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +183,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0319F2321F96E94200B9892A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		03248DA81F91F95B0008D006 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +270,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0319F2361F96E94300B9892A /* SQLite数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				0319F2371F96E94300B9892A /* AppDelegate.swift */,
+				0319F2391F96E94300B9892A /* ViewController.swift */,
+				0319F23B1F96E94300B9892A /* Main.storyboard */,
+				0319F23E1F96E94300B9892A /* Assets.xcassets */,
+				0319F2401F96E94300B9892A /* LaunchScreen.storyboard */,
+				0319F2431F96E94300B9892A /* Info.plist */,
+			);
+			path = "SQLite数据库";
+			sourceTree = "<group>";
+		};
 		03248DAC1F91F95B0008D006 /* 录音 */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,6 +539,7 @@
 				03D93DC21F949F2B00611CCE /* 远程音效播放 */,
 				03D93E041F94A7BD00611CCE /* Ipad */,
 				03B326421F966D0E00996FC7 /* QRCode */,
+				0319F2361F96E94300B9892A /* SQLite数据库 */,
 				03F2A57F1F6960DF00CA7E63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -525,6 +558,7 @@
 				03D93DC11F949F2B00611CCE /* 远程音效播放.app */,
 				03D93E031F94A7BD00611CCE /* Ipad.app */,
 				03B326411F966D0E00996FC7 /* QRCode.app */,
+				0319F2351F96E94200B9892A /* SQLite数据库.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -558,6 +592,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0319F2341F96E94200B9892A /* SQLite数据库 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0319F2461F96E94300B9892A /* Build configuration list for PBXNativeTarget "SQLite数据库" */;
+			buildPhases = (
+				0319F2311F96E94200B9892A /* Sources */,
+				0319F2321F96E94200B9892A /* Frameworks */,
+				0319F2331F96E94200B9892A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQLite数据库";
+			productName = "SQLite数据库";
+			productReference = 0319F2351F96E94200B9892A /* SQLite数据库.app */;
+			productType = "com.apple.product-type.application";
+		};
 		03248DAA1F91F95B0008D006 /* 录音 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03248DBC1F91F95B0008D006 /* Build configuration list for PBXNativeTarget "录音" */;
@@ -755,6 +806,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = liufeng;
 				TargetAttributes = {
+					0319F2341F96E94200B9892A = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = QDT8L8LPPU;
+						ProvisioningStyle = Automatic;
+					};
 					03248DAA1F91F95B0008D006 = {
 						CreatedOnToolsVersion = 9.0;
 						DevelopmentTeam = QDT8L8LPPU;
@@ -852,11 +908,22 @@
 				03D93DC01F949F2B00611CCE /* 远程音效播放 */,
 				03D93E021F94A7BD00611CCE /* Ipad */,
 				03B326401F966D0E00996FC7 /* QRCode */,
+				0319F2341F96E94200B9892A /* SQLite数据库 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0319F2331F96E94200B9892A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319F2421F96E94300B9892A /* LaunchScreen.storyboard in Resources */,
+				0319F23F1F96E94300B9892A /* Assets.xcassets in Resources */,
+				0319F23D1F96E94300B9892A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		03248DA91F91F95B0008D006 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -974,6 +1041,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0319F2311F96E94200B9892A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319F23A1F96E94300B9892A /* ViewController.swift in Sources */,
+				0319F2381F96E94300B9892A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		03248DA71F91F95B0008D006 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1085,6 +1161,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0319F23B1F96E94300B9892A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0319F23C1F96E94300B9892A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0319F2401F96E94300B9892A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0319F2411F96E94300B9892A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		03248DB11F91F95B0008D006 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1256,6 +1348,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0319F2441F96E94300B9892A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "SQLite数据库/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaituo.SQLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0319F2451F96E94300B9892A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDT8L8LPPU;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "SQLite数据库/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaituo.SQLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		03248DBA1F91F95B0008D006 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1904,6 +2052,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0319F2461F96E94300B9892A /* Build configuration list for PBXNativeTarget "SQLite数据库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0319F2441F96E94300B9892A /* Debug */,
+				0319F2451F96E94300B9892A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		03248DBC1F91F95B0008D006 /* Build configuration list for PBXNativeTarget "录音" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
