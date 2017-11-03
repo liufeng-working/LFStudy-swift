@@ -370,8 +370,8 @@
 			isa = PBXGroup;
 			children = (
 				03B3265F1F966D2900996FC7 /* Main.storyboard */,
-				03B326541F966D2900996FC7 /* Detector */,
 				03B326591F966D2900996FC7 /* Generate */,
+				03B326541F966D2900996FC7 /* Detector */,
 				03B326601F966D2900996FC7 /* Scan */,
 			);
 			path = Classes;
