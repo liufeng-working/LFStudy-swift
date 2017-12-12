@@ -1,0 +1,6 @@
+framework module Pods_js__ {
+  umbrella header "Pods-js交互-umbrella.h"
+
+  export *
+  module * { export * }
+}

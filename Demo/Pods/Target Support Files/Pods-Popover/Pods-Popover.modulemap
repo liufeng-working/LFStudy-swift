@@ -1,0 +1,6 @@
+framework module Pods_Popover {
+  umbrella header "Pods-Popover-umbrella.h"
+
+  export *
+  module * { export * }
+}
